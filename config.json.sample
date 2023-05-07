@@ -1,0 +1,10 @@
+{
+  "env": "dev",
+  "module_folders": [
+    "modules"
+  ],
+  "configs_folder": "configs",
+  "injector_packages": [
+    "fr"
+  ]
+}
