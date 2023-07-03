@@ -7,9 +7,13 @@ version '1.0-SNAPSHOT'
 
 repositories {
     mavenCentral()
+    maven {
+        name = 'jitpack'
+        url  = 'https://jitpack.io'
+    }
 }
 
 dependencies {
-    compileOnly project(':kernel-api');
+    compileOnly 'com.github.aimcvent:kernel-api:1.0.0';
     compileOnly 'com.google.code.gson:gson:2.10.1';
 }

@@ -1,4 +1,4 @@
 rootProject.name = 'database-api'
-include ':kernel-api'
-project(':kernel-api').projectDir = new File(ext.getProperty('kernel_api_dir'));
+/*include ':kernel-api'
+project(':kernel-api').projectDir = new File(ext.getProperty('kernel_api_dir'));*/
 
